@@ -1,7 +1,10 @@
+// 类类型
 interface ClockInterface {
+  // 方法
   tick()
 }
 interface ClockConstructor {
+  // 静态属性 构造器
   new(hour: number, minute: number): ClockInterface
 }
 
