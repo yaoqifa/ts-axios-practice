@@ -1,6 +1,6 @@
-declare function create(o: object | null): void
-create({a: 123})
-create(null)
+declare function create2(o: object | null): void
+create2({a: 123})
+create2(null)
 
 // create(0)
 // create('search')
